@@ -17,10 +17,7 @@ const Hero = () => {
     <main style={bgImage}>
       <div className='bg-gradient-to-r from-primary to bg-primaryDark/80'>
         <div className="container text-white">
-            {/* navbar components */}
-            {/* hero section */}
             <section className='grid grid-cols-1 md:grid-cols-2 place-items-center min-h-[800px]'>
-                {/* text content section */}
                 <div className='space-y-8 mt-[100px] md:mt-[20px]'>
                 <motion.h1
                 initial={{opacity: 0, y: -100}}
@@ -62,12 +59,11 @@ const Hero = () => {
                 </p>
                 </div>
                 </div>
-                {/* imagen content section */}
                 <div className='relative'>
                     <img src={imag2} alt="imagen2"
                     className='w-full relative z-30 size-2/5' />
                     <div className='absolute -top-20 left-0 z-[1]'>
-                      <h1 className='text-[80px] md:text-[90px] font-bold text-cyan-200/10 leading-none'>WEB</h1>
+                      <h1 className='text-[80px] md:text-[90px] font-bold text-[#00ff00a5]/10 leading-none'>WEB</h1>
                     </div>
                 </div>
             </section>
