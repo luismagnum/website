@@ -10,7 +10,7 @@ const Planes = () => {
       <div className='grid sm:grid-cols-1 md:grid-cols-2 justify-items-center gap-10 max-w-5xl mx-auto px-4 mt-10'>
         <div>
           <h1 className='text-[#00ff00a5] text-xl font-semibold ml-6 mb-6'>Necesitas una página Web?</h1>
-          <ul className='text-gray-600 sm:text-sm md:text-xl space-y-6'>
+          <ul className='text-gray-400 sm:text-sm md:text-xl space-y-6'>
             <li className="flex items-center">
               <IoIosCheckmarkCircle className="text-[#00ff00] mr-2" />
               Tu página web será compatible con todos los dispositivos

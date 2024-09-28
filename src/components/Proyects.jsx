@@ -33,7 +33,7 @@ const Proyects = () => {
           <section className='space-y-7 lg:max-w-[380px]'>
             <p className='text-2xl tracking-widest translate-y-3'>Proyectos</p>
             <h1 className='text-[#00ff00a5] text-xl lg:text-3xl'>Algunas de mis creaciones</h1>
-            <p className='text-gray-600 text-xl leading-6'>
+            <p className='text-gray-400 text-xl leading-6'>
               Te muestro algunos proyectos que he realizado{" "}
             </p>
             <button className="text-[#00ff00] border-b-2 border-[#00ff00] text-xl font-bold p-1 flex items-center gap-4 group">

@@ -12,17 +12,17 @@ const Ofrecer = () => {
             <img src={imga} alt='surf' width={300}  className="mx-auto"/>
             <div className='p-2'>
               <h2 className='text-xl text-[#00ff00a5] font-semibold mb-2'>Te ayudamos a crecer</h2>
-              <p className='text-gray-600 sm:text-xs md:text-xl text-justify'>
+              <p className='text-gray-400 sm:text-xs md:text-xl text-justify'>
                 Diseñamos tu espacio en internet, tiendas online, catalogos, webs app. Desarrollamos aplicaciones de alta calidad,
                 con un enfoque unico orientado al diseño y la buena funcionalidad.
               </p>
             </div>
           </div>
           <div data-aos="fade-left" className='text-center mx-auto w-full md:w-3/4 p-4 rounded-lg shadow-md'>
-            <img src={imgd} alt='Bandera de Estados Unidos' width={300} className="mx-auto"/>
+            <img src={imgd} alt='imagen' width={300} className="mx-auto"/>
             <div className='p-2'>
               <h2 className='text-xl text-[#00ff00a5] font-semibold mb-2'>Quieres alcanzar el exito</h2>
-              <p className='text-gray-600 sm:text-xs md:text-xl text-justify'>
+              <p className='text-gray-400 sm:text-xs md:text-xl text-justify'>
                Realmente creemos que con una estrategia web correcta, comunicacion acertada y diseño creativo,
                tu empresa puede sacar un provecho de internet MUY superior al que imaginas posible.
               </p>

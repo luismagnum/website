@@ -31,7 +31,7 @@ const Timeline = () => {
             </div>
             <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-[#00ff00a5] shadow"></div>
           </div>
-          <div className="col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md bg-gray-600">
+          <div className="col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md bg-gray-500">
             <h3 className="font-semibold text-lg mb-1">{item.title}</h3>
             <p className="leading-tight text-justify">{item.description}</p>
             <span className="text-sm text-[#00ff00]">{item.date}</span>

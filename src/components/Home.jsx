@@ -54,10 +54,9 @@ const Hero = () => {
                 <BsWhatsapp
                 className='group-hover:translate-x-2 transition size-5'/>
                 </motion.button>
-                {/* features section here */}
                 <div className='bg-black/60 p-6 space-y-2 lg:max-w-[350px] !mt-[60px] mx-2'>
-                <h1 className='text-xl uppercase'>Tiendas Online</h1>
-                <p className='text-white text-xs md:text-sm leading-loose text-justify'>
+                <h1 className='text-[#00ff00a5] text-xl uppercase'>Tiendas Online</h1>
+                <p className='text-gray-300 text-sm md:text-[15px] leading-loose text-justify'>
                 No debes quedarte atras, hay que adaptarse o morir. Hoy en dia la competencia es muy dura y
                 tus clientes pasan horas delante de la pantalla revisando redes sociales, tendencias etc.
                 </p>
