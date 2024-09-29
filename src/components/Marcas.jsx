@@ -7,7 +7,7 @@ import react from '../images/react.svg'
 
 const Marcas = () => {
   return (
-    <div className='text-center mx-auto px-12 mb-20'>
+    <div data-aos="fade-left" className='text-center mx-auto px-12 mb-20'>
        <div className='text-center mx-auto mt-8 md:mt-20 mb-20 px-4 md:px-8'>
        <h1 className='text-3xl text-[#00ff00] font-bold mb-4'>Tecnologias que utilizamos</h1>
        </div>
