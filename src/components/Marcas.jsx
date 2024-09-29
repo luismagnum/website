@@ -3,7 +3,7 @@ import html from '../images/html5.png'
 import css from '../images/css3.png'
 import javas from '../images/javas.png'
 import tailw from '../images/tailw.png'
-import react from '../images/react.png'
+import react from '../images/react.svg'
 
 const Marcas = () => {
   return (
