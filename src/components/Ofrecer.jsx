@@ -9,7 +9,7 @@ const Ofrecer = () => {
          <h2 className="text-xl md:text-2xl text-[#00ff00a5] font-bold">Creacion de paginas web para ventas online</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
           <div data-aos="fade-right" className='text-center mx-auto w-full md:w-3/4 p-4 rounded-lg shadow-md'>
-            <img src={imga} alt='surf' width={300}  className="mx-auto"/>
+            <img src={imga} alt='surf' width={350}  className="mx-auto"/>
             <div className='p-2'>
               <h2 className='text-xl text-[#00ff00a5] font-semibold mb-2'>Te ayudamos a crecer</h2>
               <p className='text-gray-400 sm:text-xs md:text-xl text-justify'>
@@ -19,7 +19,7 @@ const Ofrecer = () => {
             </div>
           </div>
           <div data-aos="fade-left" className='text-center mx-auto w-full md:w-3/4 p-4 rounded-lg shadow-md'>
-            <img src={imgd} alt='imagen' width={300} className="mx-auto"/>
+            <img src={imgd} alt='imagen' width={350} className="mx-auto"/>
             <div className='p-2'>
               <h2 className='text-xl text-[#00ff00a5] font-semibold mb-2'>Quieres alcanzar el exito</h2>
               <p className='text-gray-400 sm:text-xs md:text-xl text-justify'>

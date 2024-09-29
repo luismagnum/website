@@ -31,7 +31,7 @@ const Proyects = () => {
       <div className='container mx-auto px-10'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center gap-8'>
           <section className='space-y-7 lg:max-w-[380px]'>
-            <p className='text-2xl tracking-widest translate-y-3'>Proyectos</p>
+            <p className='text-3xl tracking-widest font-semibold translate-y-3'>Proyectos</p>
             <h1 className='text-[#00ff00a5] text-xl lg:text-3xl'>Algunas de mis creaciones</h1>
             <p className='text-gray-400 text-xl leading-6'>
               Te muestro algunos proyectos que he realizado{" "}

@@ -17,7 +17,7 @@ const Timeline = () => {
 
   return (
     <div className='text-center mx-auto mt-0 md:mt-10 mb-12 px-4 md:px-8'>
-        <h1 className='text-2xl text-[#00ff00] font-bold mb-4'>Proceso de diseño Web</h1>
+        <h1 className='text-3xl text-[#00ff00] font-bold mb-4'>Proceso de diseño Web</h1>
     <div data-aos="fade-down"  className="flex flex-col md:grid md:grid-cols-9 mx-auto p-2 text-gray-950">
       {timelineData.map((item, index) => (
         <div

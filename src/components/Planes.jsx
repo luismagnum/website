@@ -5,11 +5,11 @@ const Planes = () => {
   return (
     <div className='mb-40'>
       <section className="flex items-center justify-center">
-        <h2 className="text-[#00ff00] text-2xl font-bold mt-10 mb-10">Planes Anuales</h2>
+        <h2 className="text-[#00ff00] text-3xl font-bold mt-10 mb-10">Planes Anuales</h2>
       </section>
       <div className='grid sm:grid-cols-1 md:grid-cols-2 justify-items-center gap-10 max-w-5xl mx-auto px-4 mt-10'>
         <div>
-          <h1 className='text-[#00ff00a5] text-xl font-semibold ml-6 mb-6'>Necesitas una página Web?</h1>
+          <h1 className='text-[#00ff00a5] text-2xl font-semibold ml-6 mb-6'>Necesitas una página Web?</h1>
           <ul className='text-gray-400 sm:text-sm md:text-xl space-y-6'>
             <li className="flex items-center">
               <IoIosCheckmarkCircle className="text-[#00ff00] mr-2" />

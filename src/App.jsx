@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import Footer from './components/Footer';
 import Proyects from './components/Proyects';
 import Timeline from './components/Timeline';
+import Marcas from './components/Marcas';
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
      <div id='proyects'>
      <Proyects />
      </div>
+     <Marcas />
      <div>
      <Planes />
      </div>
