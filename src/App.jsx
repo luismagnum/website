@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Proyects from './components/Proyects';
 import Timeline from './components/Timeline';
 import Marcas from './components/Marcas';
+import Boton from './components/Boton';
 
 function App() {
   useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
      <div id='footer'>
       <Footer />
      </div>
+     <Boton />
     </div>
   )
 }
