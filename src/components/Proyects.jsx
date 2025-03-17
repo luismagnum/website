@@ -1,15 +1,15 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
-import proyect1 from '../images/empa.png';
+import proyect1 from '../images/zully.png';
 import proyect2 from '../images/teque.png';
 import proyect3 from '../images/deliv.png';
 
 const ProjectsList = [
     {
         id: 1,
-        title: 'Ecommerce',
+        title: 'Landing page',
         img: proyect1,
-        link: 'https://luismagnum.github.io/sabores/', 
+        link: 'https://www.zullydiaz.com/', 
     },
     {
         id: 2,
@@ -49,7 +49,7 @@ const Proyects = () => {
                 <img
                   src={proyect.img}
                   alt='imagen'
-                  className='w-full h-64 object-cover'
+                  className='w-full h-72 object-fill mx-auto rounded-md'
                 />
                 <a href={proyect.link} target="_blank" rel="noopener noreferrer">
                   <button className="bg-[#00ff00] text-gray-950 hover:text-gray-600 hover:bg-[#00ff00a5] px-4 py-2 rounded-md w-full">
