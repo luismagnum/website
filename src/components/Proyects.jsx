@@ -9,7 +9,7 @@ const ProjectsList = [
         id: 1,
         title: 'Landing page',
         img: proyect1,
-        link: 'https://www.zullydiaz.com/', 
+        link: 'https://www.zullydiaz.com', 
     },
     {
         id: 2,
