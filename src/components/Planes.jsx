@@ -40,7 +40,7 @@ const Planes = () => {
         <div data-aos="zoom-in" className="rounded-2xl  p-3 bg-[#00ff00a5] text-gray-600 max-w-xs">
           <div className="relative flex flex-col items-center p-5 pt-10 bg-gray-100 rounded-xl">
             <span className="mt-[-12px] absolute top-0 right-0 flex items-center bg-[#00ff00a5] rounded-l-full py-2 px-3 text-xl font-semibold text-sky-950">
-              $120 mil <small className="text-xs ml-1 text-sky-950">/anual</small>
+              $40 mil <small className="text-xs ml-1 text-sky-950">/anual</small>
             </span> 
             <p className="text-xl font-bold text-gray-800 bg-[#00ff00a5] px-2 py-1 rounded-lg">
               Plan Plus
