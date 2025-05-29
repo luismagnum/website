@@ -1,11 +1,11 @@
 import whatsap from '../images/whatsapp-fill.svg'
-import logo from '../images/logo.png'
+import logo from '../images/logito.png'
 
 const Footer = () => {
     return (
     <footer className='bg-gray-950 p-4 mb-10'>
         <span>
-        <img src={logo} alt='' width={150} className='text-center mx-auto mb-6 object-contain'/>
+        <img src={logo} alt='' width={120} className='text-center mx-auto mb-6 object-contain'/>
         </span>
       <div className='md:flex md:justify-between md: items-center sm:px-12 px-4 py-7'>
         <h1 className='text-gray-400 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'><span className='text-[#00ff00] mr-3'>SpeedWeb</span>Te gustaria empezar un proyecto con nosotros?</h1>

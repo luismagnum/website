@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Link} from "react-scroll";
 import { IoClose } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
-import logo from '../images/logo.png';
+import logo from '../images/logito.png';
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className='flex flex-row justify-between p-5 md:px-24 px-5 bg-[#01020d] shadow-[0_3px_10px_rgba(0,0,0,0.2)] z-50'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
-                    <img src={logo} alt='logo' width={80}/>
+                    <img src={logo} alt='logo' width={60}/>
                 </span>
                 <h1 className='text-[#00ff00] text-xl font-semibold ml-2'> SpeedWeb</h1>
             </div>
