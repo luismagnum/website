@@ -2,7 +2,7 @@ import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
 import proyect1 from '../images/zully.png';
 import proyect2 from '../images/teque.png';
-import proyect3 from '../images/deliv.png';
+import proyect3 from '../images/services.jpeg';
 
 const ProjectsList = [
     {
@@ -19,9 +19,9 @@ const ProjectsList = [
     },
     {
         id: 3,
-        title: 'Delivery',
+        title: 'Landing page',
         img: proyect3,
-        link: 'https://spontaneous-sunshine-99ff47.netlify.app/', 
+        link: 'https://frankservice.vercel.app/', 
     },
 ];
 
@@ -33,7 +33,7 @@ const Proyects = () => {
           <section className='space-y-7 lg:max-w-[380px]'>
             <p className='text-3xl tracking-widest font-semibold translate-y-3'>Proyectos</p>
             <h1 className='text-[#00ff00a5] text-xl lg:text-3xl'>Algunas de mis creaciones</h1>
-            <p className='text-gray-400 text-xl leading-6'>
+            <p className='text-white text-xl leading-6'>
               Te muestro algunos proyectos que he realizado{" "}
             </p>
             <button className="text-[#00ff00] border-b-2 border-[#00ff00] text-xl font-bold p-1 flex items-center gap-4 group">

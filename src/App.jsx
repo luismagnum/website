@@ -1,8 +1,10 @@
 import { useEffect} from 'react';
 import Home from './components/Home'
+import Hero from './components/Hero';
 import Navbar from './components/Navbar'
 import Ofrecer from './components/Ofrecer';
 import Planes from './components/Planes'
+import Servicios from './components/Servicios';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from './components/Footer';
@@ -26,17 +28,16 @@ function App() {
     <div className="overflow-x-hidden">
      <Navbar />
      <div id='home'>
-     <Home />
+     <Hero />
+     </div>
+     <div>
+     <Servicios />
      </div>
      <div id='ofrecer'>
      <Ofrecer />
      </div>
      <div id='proyects'>
      <Proyects />
-     </div>
-     <Marcas />
-     <div>
-     <Planes />
      </div>
      <Timeline />
      <div id='footer'>

@@ -30,7 +30,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-600 transition-all cursor-pointer'>
+                 className='hover:text-white transition-all cursor-pointer'>
                  Home
                  </Link>
                 <Link 
@@ -38,7 +38,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-600 transition-all cursor-pointer'>
+                 className='hover:text-white transition-all cursor-pointer'>
                  Nosotros
                  </Link>
                 <Link 
@@ -46,7 +46,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-600 transition-all cursor-pointer'>
+                 className='hover:text-white transition-all cursor-pointer'>
                  Proyectos
                 </Link>
                 <Link 
@@ -54,7 +54,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-gray-600 transition-all cursor-pointer'>
+                 className='hover:text-white transition-all cursor-pointer'>
                  Contacto
                 </Link>
 
