@@ -12,7 +12,8 @@ const Hero = () => {
             Impulsa tu negocio con <br /> Marketing Digital Estratégico
           </h1>
           <p className="text-lg sm:text-xl text-gray-300 max-w-xl mb-8">
-            Atrae más clientes, aumenta tus ventas y domina las redes con campañas efectivas en Meta Ads, Google Ads y más.
+           Me encargo de crear y optimizar campañas publicitarias en plataformas como Meta Ads
+           para que tu negocio llegue a más personas, aumente sus ventas y genere resultados reales.
           </p>
 
           {/* Botones de acción */}
@@ -25,7 +26,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="bg-green-500 text-white font-semibold px-6 py-3 rounded flex items-center gap-2 hover:bg-green-400 transition duration-300"
             >
-              <FaWhatsapp /> Hablar por WhatsApp
+              <FaWhatsapp /> Contratar tus servicios
             </a>
           </div>
         </div>

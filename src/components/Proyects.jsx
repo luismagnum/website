@@ -37,7 +37,7 @@ const Proyects = () => {
               Te muestro algunos proyectos que he realizado{" "}
             </p>
             <button className="text-[#00ff00] border-b-2 border-[#00ff00] text-xl font-bold p-1 flex items-center gap-4 group">
-              SpeedWeb{" "}
+              Luis Diaz{" "}
               <FaArrowRight className="text-sm group-hover:translate-x-2 transition duration-200" />
             </button>
           </section>

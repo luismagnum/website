@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Link} from "react-scroll";
 import { IoClose } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
-import logo from '../images/logito.png';
+import logo from '../images/marketing.png';
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -22,7 +22,7 @@ const Navbar = () => {
                 <span>
                     <img src={logo} alt='logo' width={60}/>
                 </span>
-                <h1 className='text-[#00ff00] text-xl font-semibold ml-2'> SpeedWeb</h1>
+                <h1 className='text-[#00ff00] text-xl font-semibold ml-2'>Luis Diaz/Paid Media</h1>
             </div>
             <nav className='hidden text-[#00ff00] md:flex flex-row items-center text-lg font-medium gap-8'>
                 <Link

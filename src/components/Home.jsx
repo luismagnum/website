@@ -1,4 +1,3 @@
-import React from 'react';
 import imag2 from '../images/imgd.png';
 import survey from '../images/imagu.jpg';
 import { BsWhatsapp } from "react-icons/bs";
