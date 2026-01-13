@@ -19,7 +19,6 @@ function App() {
     <div className="overflow-x-hidden">
      <Navbar />
      <HeroMeta />
-    
     </div>
   )
 }
