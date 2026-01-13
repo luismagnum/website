@@ -1,17 +1,8 @@
 import { useEffect} from 'react';
-import Home from './components/Home'
-import Hero from './components/Hero';
+import HeroMeta from './components/HeroMeta';
 import Navbar from './components/Navbar'
-import Ofrecer from './components/Ofrecer';
-import Planes from './components/Planes'
-import Servicios from './components/Servicios';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from './components/Footer';
-import Proyects from './components/Proyects';
-import Timeline from './components/Timeline';
-import Marcas from './components/Marcas';
-import Boton from './components/Boton';
 
 function App() {
   useEffect(() => {
@@ -27,23 +18,8 @@ function App() {
   return ( 
     <div className="overflow-x-hidden">
      <Navbar />
-     <div id='home'>
-     <Hero />
-     </div>
-     <div>
-     <Servicios />
-     </div>
-     <div id='ofrecer'>
-     <Ofrecer />
-     </div>
-     <div id='proyects'>
-     <Proyects />
-     </div>
-     <Timeline />
-     <div id='footer'>
-      <Footer />
-     </div>
-     <Boton />
+     <HeroMeta />
+    
     </div>
   )
 }
