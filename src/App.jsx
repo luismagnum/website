@@ -1,6 +1,7 @@
 import { useEffect} from 'react';
 import HeroMeta from './components/HeroMeta';
 import Navbar from './components/Navbar'
+import Proyeccion from './components/Proyeccion';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -19,6 +20,7 @@ function App() {
     <div className="overflow-x-hidden">
      <Navbar />
      <HeroMeta />
+     <Proyeccion />
     </div>
   )
 }
