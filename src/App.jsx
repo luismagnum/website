@@ -2,6 +2,7 @@ import { useEffect} from 'react';
 import HeroMeta from './components/HeroMeta';
 import Navbar from './components/Navbar'
 import Proyeccion from './components/Proyeccion';
+import MetaFooter from './components/MetaFooter';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -21,6 +22,7 @@ function App() {
      <Navbar />
      <HeroMeta />
      <Proyeccion />
+     <MetaFooter />
     </div>
   )
 }
