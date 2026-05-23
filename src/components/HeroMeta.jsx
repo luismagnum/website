@@ -7,7 +7,7 @@ const HeroMeta = () => {
       <div className="max-w-6xl mx-auto space-y-24">
 
         {/* HERO */}
-        <div className="text-center max-w-4xl mx-auto">
+        <div  data-aos="zoom-in-down" className="text-center max-w-4xl mx-auto mt-8">
           <h1 className="text-4xl md:text-6xl font-bold">
             Publicidad en Meta Ads que atrae clientes reales
           </h1>
@@ -67,7 +67,7 @@ const HeroMeta = () => {
         </div>
 
         {/* NICHOS */}
-        <div className="bg-white/5 border border-white/10 rounded-2xl p-14 backdrop-blur-lg">
+        <div data-aos="zoom-in-right" className="bg-white/5 border border-white/10 rounded-2xl p-14 backdrop-blur-lg">
           <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-center">
             Nichos con los que trabajo
           </h2>
@@ -208,7 +208,7 @@ const HeroMeta = () => {
         </div>
 
         {/* CTA FINAL */}
-        <div className="bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl p-16 text-center text-black shadow-xl">
+        <div data-aos="zoom-in" className="bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl p-16 text-center text-black shadow-xl">
           <h2 className="text-4xl md:text-5xl font-bold">
             ¿Listo para atraer más clientes?
           </h2>

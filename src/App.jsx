@@ -1,6 +1,7 @@
 import { useEffect} from 'react';
-import Ebook from './components/Ebook';
 import Navbar from './components/Navbar'
+import HeroMeta from './components/HeroMeta'
+import MetaFooter from './components/MetaFooter'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -18,7 +19,8 @@ function App() {
   return ( 
     <div className="overflow-x-hidden">
      <Navbar />
-     <Ebook />
+     <HeroMeta />
+     <MetaFooter />
     </div>
   )
 }
